@@ -70,7 +70,7 @@ function getTransactions () {
     let transactionsHtml = ``;
 
     if(transactions.length) {
-        transactions.forEach ((item) => {
+        transactions.forEach((item) => {
             let type = "Entrada";
 
             if(item.type === "2") {
